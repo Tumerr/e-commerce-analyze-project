@@ -12,9 +12,13 @@ Projede, Eylül 2016 ile Ekim 2018 tarihleri arasındaki yaklaşık 100.000 sipa
 <img width="788" height="474" alt="image" src="https://github.com/user-attachments/assets/84f0596e-7837-46ce-afac-8a8a39612171" />
 
 • Müşteri ve Konum: olist_customers_dataset, olist_geolocation_dataset
+
 • Sipariş ve Ürün: olist_orders_dataset, olist_order_items_dataset, olist_products_dataset
+
 • Ödeme ve Değerlendirme: olist_order_payments_dataset, olist_order_reviews_dataset
+
 • Satıcı: olist_sellers_dataset
+
 🛠️ Kullanılan Teknolojiler ve Yöntemler
 • Programlama Dilleri: Python, SQL.
 • Analiz Yaklaşımları: Kohort Analizi, RFM Segmentasyonu, Churn Tahmini, Pazar Sepeti Analizi, Duygu Analizi.
@@ -31,6 +35,7 @@ Müşterilerin ilk alışveriş yaptıkları aya göre gruplandırılarak zaman 
 • Amaç: Müşteri elde tutma (retention) oranlarını belirlemek.
 • Bulgu: İlk aydan sonra müşteri elde tutma oranlarının oldukça düşük olduğu ve platformdaki alışverişlerin büyük çoğunluğunun tek seferlik olduğu tespit edilmiştir.
 
+----------------------------------------------------------------------------------
 
 2. Müşteri Segmentasyonu: RFM Analizi ve K-Means
 
@@ -40,6 +45,7 @@ Müşteriler; Recency (Güncellik), Frequency (Sıklık) ve Monetary (Parasal De
 • Segmentler: Potansiyel Müşteriler, Büyük Harcamacılar, Risk Altındakiler, Sadıklar.
 • Bulgu: En büyük kitleyi "Yeni/Düşük Harcama Yapanlar" oluştururken, "Sadık ve Yüksek Harcama Yapanlar" en küçük gruptur,.
 
+----------------------------------------------------------------------------------
 
 3. Müşteri Kaybı Tahmini (Churn Prediction)
 
@@ -53,6 +59,7 @@ Müşterilerin platformu terk etme olasılıklarını tahmin etmek için Random 
 • Kritik Özellikler: Toplam harcama tutarı, ortalama sipariş değeri ve yorum puanı.
 • Performans: 0-180 gün aralığı için modelin doğruluğu (Accuracy) %69.30, duyarlılığı (Recall) %75.00 olarak ölçülmüştür.
 
+----------------------------------------------------------------------------------
 
 4. Birliktelik Kuralları: Market Sepet Analizi
 
